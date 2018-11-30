@@ -1,0 +1,32 @@
+body {
+    background-image: url("background.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.header, p, li, a {
+    font-family: Raleway, sans-serif;
+	color: rgb(255, 255, 255);
+	font-weight: 100;
+}
+
+.text {
+	border: 2px solid rgb(255, 255, 255);
+	display: block;
+	background-color: rgb(20, 20, 60, 0.7);
+
+}
+
+.art {
+	float: right;
+}
+
+p, li {
+	font-size: 45px;
+} 
+
+.header {
+	border: 2px solid rgb(255, 255, 255);
+	/*text-align: center;*/
+	font-size: 100px;
+} 
