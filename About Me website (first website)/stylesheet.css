@@ -8,6 +8,7 @@ body {
     font-family: Raleway, sans-serif;
 	color: rgb(255, 255, 255);
 	font-weight: 100;
+	font-size: 45px;
 }
 
 .text {
@@ -18,12 +19,19 @@ body {
 }
 
 .art {
+	position: relative;
 	float: right;
+	left: 300px;
+	bottom: 60px; 
 }
 
-p, li {
-	font-size: 45px;
-} 
+.justified-text {
+	
+    width: 1500px;
+}
+.art-container {
+	height: 812px;
+}
 
 .header {
 	border: 2px solid rgb(255, 255, 255);
